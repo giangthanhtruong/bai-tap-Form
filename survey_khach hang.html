@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <link rel="stylesheet" href="survey.css">
 </head>
 <body>
 <h1><strong>Market Research Survey</strong></h1>
@@ -50,8 +51,40 @@
         </table><br>
         <lable>
             <strong>What features would you like to see in the new product.</strong><br>
-            <textarea name="info" rows="3" cols="50"></textarea>
-        </lable>
+            <textarea name="info" rows="3" cols="70"></textarea>
+        </lable><br>
+        <p>Please rate your level of agreement with the following statements</p><br>
+        <table border="1" id="danhgia">
+            <tr>
+                <td></td>
+                <td>Strongly Disagree</td>
+                <td>Disagree</td>
+                <td>Agree</td>
+                <td>Strongly Agree</td>
+            </tr>
+            <tr>
+                <th>Our products are priced fairly.</th>
+                <td><input type="radio" name="hang1" value="1"><br>1</td>
+                <td><input type="radio" name="hang1" value="2"><br>2</td>
+                <td><input type="radio" name="hang1" value="3"><br>3</td>
+                <td><input type="radio" name="hang1" value="4"><br>4</td>
+            </tr>
+            <tr>
+                <th>Our products are high quality.</th>
+                <td><input type="radio" name="hang2" value="1"><br>1</td>
+                <td><input type="radio" name="hang2" value="2"><br>2</td>
+                <td><input type="radio" name="hang2" value="3"><br>3</td>
+                <td><input type="radio" name="hang2" value="4"><br>4</td>
+            </tr>
+            <tr>
+                <th>You would recommend our product to a friend or coworker.</th>
+                <td><input type="radio" name="hang3" value="1"><br>1</td>
+                <td><input type="radio" name="hang4" value="2"><br>2</td>
+                <td><input type="radio" name="hang5" value="3"><br>3</td>
+                <td><input type="radio" name="hang6" value="4"><br>4</td>
+            </tr>
+        </table><br>
+        <button type="submit">Submit</button>
     </form>
 </body>
 </html>
